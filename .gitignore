@@ -13,7 +13,7 @@ desktop.ini
 
 # Python temporary files
 __pycache__/
-*.py[cod]
+*.py
 
 # Local Python environments
 /.venv/
