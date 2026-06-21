@@ -1,0 +1,155 @@
+DEWiki/
+├── README.md
+├── LICENSE
+├── TODO.md
+├── CHANGELOG.md
+├── .gitignore
+│
+├── _templates/
+│   ├── template_policy.md
+│   └── examples/
+│       ├── article_standard_spark_execution_model.md
+│       └── article_short_http_methods.md
+│
+├── competency_matrix/
+│   ├── de_competency_matrix.xlsx
+│   ├── de_competency_matrix.md
+│   └── test_de_mapping.md
+│
+├── scripts/
+│   ├── generate_readme_toc.sh
+│   ├── check_links.sh
+│   └── create_topic_template.py
+│
+├── 0 Roadmap/
+│   ├── 0.1 AboutProject.md
+│   ├── 0.2 HowToUseThisWiki.md
+│   ├── 0.3 LearningRoadmap.md
+│   ├── 0.4 InterviewPreparationPlan.md
+│   └── 0.5 CompetencyAssessmentPlan.md
+│
+├── 1 Common/
+│   ├── 1.1 Git/
+│   ├── 1.2 LinuxAndTerminal/
+│   ├── 1.3 Markdown/
+│   └── 1.4 Docker/
+│
+├── 2 ComputerScience/
+│   ├── 2.1 AlgorithmsAndDataStructures/
+│   ├── 2.2 OperatingSystems/
+│   ├── 2.3 Networking/
+│   └── 2.4 Architecture/
+│
+├── 3 Python/
+│   ├── 3.1 PythonBasics/
+│   ├── 3.2 PythonForDataEngineering/
+│   └── 3.3 Testing/
+│
+├── 4 SQLAndDatabases/
+│   ├── 4.1 SQLBasics/
+│   ├── 4.2 RelationalDatabases/
+│   ├── 4.3 QueryProcessing/
+│   └── 4.4 NoSQL/
+│
+├── 5 DataModelingAndDWH/
+│   ├── 5.1 DWHBasics.md
+│   ├── 5.2 StarSchema.md
+│   ├── 5.3 FactsAndDimensions.md
+│   ├── 5.4 Grain.md
+│   ├── 5.5 SlowlyChangingDimensions/
+│   └── 5.6 DataMarts.md
+│
+├── 6 ETL_ELT_AndPipelines/
+│   ├── 6.1 ETLvsELT.md
+│   ├── 6.2 Extract.md
+│   ├── 6.3 Transform.md
+│   ├── 6.4 Load.md
+│   ├── 6.5 IncrementalLoad.md
+│   ├── 6.6 Idempotency.md
+│   ├── 6.7 Backfill.md
+│   ├── 6.8 CDC.md
+│   └── 6.9 DataReconciliation.md
+│
+├── 7 StorageAndFileFormats/
+│   ├── 7.1 FileFormatsOverview.md
+│   ├── 7.2 CSV_JSON_XML.md
+│   ├── 7.3 Avro.md
+│   ├── 7.4 Parquet.md
+│   ├── 7.5 ORC.md
+│   ├── 7.6 RowVsColumnar.md
+│   ├── 7.7 CompressionCodecs.md
+│   ├── 7.8 SplittableCompression.md
+│   ├── 7.9 Partitioning.md
+│   └── 7.10 SchemaEvolution.md
+│
+├── 8 HadoopEcosystem/
+│   ├── 8.1 HDFS/
+│   ├── 8.2 MapReduce/
+│   └── 8.3 YARN/
+│
+├── 9 Spark/
+│   ├── 9.1 SparkCore/
+│   ├── 9.2 PySparkDataFrameAPI/
+│   ├── 9.3 SparkSQL/
+│   ├── 9.4 RDDAndScala/
+│   └── 9.5 SparkPerformance/
+│
+├── 10 HiveAndMetastore/
+│   ├── 10.1 HiveOverview.md
+│   ├── 10.2 HiveArchitecture.md
+│   ├── 10.3 HiveServerDriverCompilerMetastore.md
+│   ├── 10.4 ManagedVsExternalTables.md
+│   ├── 10.5 HiveQLTypes.md
+│   ├── 10.6 Partitions.md
+│   ├── 10.7 InsertOverwrite.md
+│   ├── 10.8 HiveForBatch.md
+│   └── 10.9 HiveAndSpark.md
+│
+├── 11 Orchestration/
+│   ├── 11.1 Airflow/
+│   └── 11.2 OtherOrchestrators/
+│
+├── 12 DataQualityAndObservability/
+│   ├── 12.1 DataQualityDimensions.md
+│   ├── 12.2 Freshness.md
+│   ├── 12.3 Completeness.md
+│   ├── 12.4 Uniqueness.md
+│   ├── 12.5 Validity.md
+│   ├── 12.6 Reconciliation.md
+│   ├── 12.7 MonitoringAndAlerting.md
+│   └── 12.8 Lineage.md
+│
+├── 13 DataArchitecture/
+│   ├── 13.1 BatchVsStreaming.md
+│   ├── 13.2 DataLake.md
+│   ├── 13.3 DataWarehouse.md
+│   ├── 13.4 Lakehouse.md
+│   ├── 13.5 LambdaArchitecture.md
+│   ├── 13.6 KappaArchitecture.md
+│   ├── 13.7 MedallionArchitecture.md
+│   └── 13.8 DataPlatformDesign.md
+│
+├── 14 CloudAndInfrastructure/
+│   ├── 14.1 CloudBasics.md
+│   ├── 14.2 ObjectStorage.md
+│   ├── 14.3 KubernetesBasics.md
+│   ├── 14.4 CI_CD.md
+│   ├── 14.5 Secrets.md
+│   └── 14.6 EnvironmentsDevStageProd.md
+│
+├── 15 InterviewAndAssessment/
+│   ├── 15.1 InterviewRoadmap.md
+│   ├── 15.2 SQLQuestions.md
+│   ├── 15.3 PythonQuestions.md
+│   ├── 15.4 SparkQuestions.md
+│   ├── 15.5 HadoopHiveQuestions.md
+│   ├── 15.6 AirflowQuestions.md
+│   ├── 15.7 SystemDesignQuestions.md
+│   └── 15.8 BehavioralQuestions.md
+│
+└── _private/
+    └── test_de/
+        ├── test_ocr.md
+        ├── test_questions_mapping.md
+        ├── weak_areas.md
+        └── preparation_checklist.md
