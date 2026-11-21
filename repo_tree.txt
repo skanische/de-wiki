@@ -1,9 +1,6 @@
 DEWiki/
-  _templates/
-    examples/
-      article_short_http_methods.md
-      article_standard_spark_execution_model.md
-    template_policy.md
   Orchestration/
     Airflow/
-      1. Airflow Overview and DAG Basics.md
+      01_airflow_overview_and_dag_basics.md
+      1.1_airflow_dag.png
+      1.1_airflow_role_in_data_pipelines.md
