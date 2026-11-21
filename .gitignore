@@ -22,6 +22,3 @@ __pycache__/
 # Environment variables and secrets
 .env
 .env.*
-
-# Old notes
-/Orchestration/Airflow/1.1_airflow_role_in_data_pipelines.md

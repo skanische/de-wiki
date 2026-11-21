@@ -16,7 +16,6 @@ Wiki находится в активной разработке.
 
 - [Orchestration/](./Orchestration/)
   - [Airflow/](./Orchestration/Airflow/)
-    - [Airflow Overview and DAG Basics](./Orchestration/Airflow/01_airflow_overview_and_dag_basics.md)
     - [1.1 Роль Airflow для data-пайплайнов](./Orchestration/Airflow/1.1_airflow_role_in_data_pipelines.md)
 
 <!-- repo-tree:end -->

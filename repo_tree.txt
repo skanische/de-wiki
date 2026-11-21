@@ -1,6 +1,0 @@
-DEWiki/
-  Orchestration/
-    Airflow/
-      01_airflow_overview_and_dag_basics.md
-      1.1_airflow_dag.png
-      1.1_airflow_role_in_data_pipelines.md
